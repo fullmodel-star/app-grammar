@@ -1,0 +1,14 @@
+/* 由 packages/lively/sync_lively.py 產生，請勿手改（改 apps.json 再重跑）。
+   926_app-grammar｜主題色相來源 #4A5D72｜engine=grammar｜level=full */
+:root{--lv-engine:grammar;--lv-level:full}
+html:not([data-theme="dark"]),html:not([data-theme="dark"]) body{
+  --lv-btn:#89ACD2;--lv-btn-d:#5D87B7;--lv-ink:#1D3958;--lv-acc:#3C6B9F;
+  --lv-soft:#E8EFF7;--lv-soft2:#CEDBE8;
+}
+html[data-theme="dark"],html[data-theme="dark"] body{
+  --lv-btn:#89ACD2;--lv-btn-d:#5D87B7;--lv-ink:#1D3958;--lv-acc:#7AA1CD;
+  --lv-soft:#253241;--lv-soft2:#374B62;
+}
+@media (prefers-color-scheme:dark){html:not([data-theme]),html:not([data-theme]) body{
+  --lv-acc:#7AA1CD;--lv-soft:#253241;--lv-soft2:#374B62;
+}}
